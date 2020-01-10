@@ -12,7 +12,7 @@ setuptools.setup(
     name='featuresfinder',
     license="MIT",
     description='featuresfinder is a python package for feature extration using nearly 6 different algorithsm.',
-    version='v0.0.1',
+    version='v1.2',
    
     url='https://github.com/sachinL/featuresfinder',
     packages=setuptools.find_packages(),
