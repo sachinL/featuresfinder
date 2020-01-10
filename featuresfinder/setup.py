@@ -4,8 +4,7 @@
 import setuptools
 
 
-with open('README.md') as f:
-    README = f.read()
+
 
 setuptools.setup(
     author="Sachin Limbachiya",
@@ -14,7 +13,7 @@ setuptools.setup(
     license="MIT",
     description='featuresfinder is a python package for feature extration using nearly 6 different algorithsm.',
     version='v0.0.1',
-    long_description=README,
+   
     url='https://github.com/sachinL/featuresfinder',
     packages=setuptools.find_packages(),
     python_requires=">=3",
@@ -31,4 +30,3 @@ setuptools.setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Intended Audience :: Developers',
     ],
-)
