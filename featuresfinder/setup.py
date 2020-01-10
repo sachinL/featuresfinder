@@ -19,8 +19,7 @@ setuptools.setup(
     python_requires=">=3",
     install_requires=['sklearn','lightgbm','numpy'],
     classifiers=[
-        # Trove classifiers
-        # (https://pypi.python.org/pypi?%3Aaction=list_classifiers)
+       
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
@@ -30,3 +29,4 @@ setuptools.setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Intended Audience :: Developers',
     ],
+)
